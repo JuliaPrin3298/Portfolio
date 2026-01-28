@@ -4,10 +4,23 @@ body {
     color: white;
 }
 
+.btn {
+    background-color: #4634BF;
+    font-family: 'Golos Text';
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #4B5CBF;
+    color: white;
+}
+
 /* Golos Text */
 /*Bitter */
 
 /*NAV*/
+
 .line {
     width: 100%;
     height: 2px;
@@ -36,24 +49,52 @@ body {
     font-size: clamp(1.2rem, 3.3vw, 2.3rem);
 }
 
-.about img{
+.about .txt {
+    font-family: 'Golos Text';
+}
+
+.about img {
     width: 320px;
     height: auto;
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-  .about .perfil {
-    margin-top: 150px;
-  }
+    .about .perfil {
+        margin-top: 150px;
+    }
 }
 
 @media (max-width: 768px) {
-    .about .perfil{
+    .about .perfil {
         order: 2;
-        margin-left: 150px;
     }
 
-    .about .text{
+    .about .text {
         order: 1;
     }
+}
+
+/*Portfolio*/
+
+.portfolio .card {
+    background-color: #14193A;
+    width: 18rem;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 12px;
+}
+
+.portfolio .card-body {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+.portfolio .card-text {
+color: #d1d5ff;
+font-size: 0.95rem;
+flex-grow: 1;
 }
