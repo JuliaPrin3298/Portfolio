@@ -110,3 +110,25 @@ color: #d1d5ff;
 font-size: 0.95rem;
 flex-grow: 1;
 }
+
+/*Skills*/
+
+.skills .card{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    
+}
+
+.skills .blocow{
+    background-color: #D9D9D9;
+}
+
+.skills .blocor{
+    background-color: #4321BF;
+}
+
+.skills img{
+    max-width: 100px;
+    max-height: 100px;
+}

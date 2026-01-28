@@ -36,7 +36,7 @@ O projeto conta com uma pasta destinada à organização das imagens (`images`) 
 - [x] Home
 - [x] About Me
 - [x] Portfolio
-- [ ] Skills
+- [x] Skills
 - [ ] Certificates
 - [ ] Contact
 
