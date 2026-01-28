@@ -31,3 +31,14 @@ O projeto conta com uma pasta destinada à organização das imagens (`images`) 
 
 ---
 
+# CheckList A Fazer
+
+- [x] Home
+- [x] About Me
+- [x] Portfolio
+- [ ] Skills
+- [ ] Certificates
+- [ ] Contact
+
+ 
+ 
