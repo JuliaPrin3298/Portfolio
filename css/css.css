@@ -90,7 +90,8 @@ nav {
 .portfolio {
     position: relative;
 }
-.portfolio h1{
+
+.portfolio h1 {
     position: relative;
     z-index: 2;
 }
@@ -124,7 +125,8 @@ nav {
     position: absolute;
     z-index: 1;
 }
-.portfolio .blob-left{
+
+.portfolio .blob-left {
     width: 40vw;
     height: 40vw;
 }
@@ -138,15 +140,15 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .portfolio .blob-left{
-    width: 200px;
-    height: 400px;
-}
+    .portfolio .blob-left {
+        width: 200px;
+        height: 400px;
+    }
 
-    .portfolio .blob-rigth{
+    .portfolio .blob-rigth {
         width: 300px;
         height: 500px;
-        transform:translateY(-5%) ;
+        transform: translateY(-5%);
     }
 }
 
@@ -170,4 +172,13 @@ nav {
 .skills img {
     max-width: 100px;
     max-height: 100px;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+}
+
+.skills .wave-bottom{
+    margin-top: -100px;
 }
