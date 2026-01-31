@@ -27,7 +27,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1050; 
+    z-index: 1050;
 }
 
 .line {
@@ -87,6 +87,13 @@ nav {
 }
 
 /*Portfolio*/
+.portfolio {
+    position: relative;
+}
+.portfolio h1{
+    position: relative;
+    z-index: 2;
+}
 
 .portfolio .card {
     background-color: #14193A;
@@ -97,38 +104,70 @@ nav {
     justify-content: space-between;
     border: none;
     border-radius: 12px;
+    z-index: 2;
+    position: relative;
 }
 
 .portfolio .card-body {
-display: flex;
-flex-direction: column;
-height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .portfolio .card-text {
-color: #d1d5ff;
-font-size: 0.95rem;
-flex-grow: 1;
+    color: #d1d5ff;
+    font-size: 0.95rem;
+    flex-grow: 1;
+}
+
+.portfolio .blob {
+    position: absolute;
+    z-index: 1;
+}
+.portfolio .blob-left{
+    width: 40vw;
+    height: 40vw;
+}
+
+.portfolio .blob-rigth {
+    width: 30vw;
+    height: 30vw;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .portfolio .blob-left{
+    width: 200px;
+    height: 400px;
+}
+
+    .portfolio .blob-rigth{
+        width: 300px;
+        height: 500px;
+        transform:translateY(-5%) ;
+    }
 }
 
 /*Skills*/
 
-.skills .card{
+.skills .card {
     width: 120px;
     height: 120px;
     padding: 10px;
-    
+
 }
 
-.skills .blocow{
+.skills .blocow {
     background-color: #D9D9D9;
 }
 
-.skills .blocor{
+.skills .blocor {
     background-color: #4321BF;
 }
 
-.skills img{
+.skills img {
     max-width: 100px;
     max-height: 100px;
 }
