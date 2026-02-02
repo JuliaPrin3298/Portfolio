@@ -235,5 +235,15 @@ canvas {
     border-left: 4px solid #fff;
 }
 
+.certificates .cert{
+    width: 80px;
+    height: auto;
+}
+
+.certificates .bag{
+    width: 50px;
+    height: auto;
+}
+
 
 
