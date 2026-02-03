@@ -30,6 +30,8 @@ Tecnologias utilizadas no projeto:
 
 O projeto conta com um conjunto de pastas destinadas à organização, incluindo o diretório de imagens (`images`),uma pasta de apêndices(`appendix`) que contém os arquivos `.pdf` e `.rar` e outra voltada para os arquivos de estilo(`css`), garantindo melhor organização e manutenção do código.
 
+[Protótipo do Figma](https://www.figma.com/design/DV8v6ndXbtyDtl4RKY64AF/Untitled?node-id=1-2&t=E80O60Fg27e7DYG0-1)
+
 ---
 
 # CheckList A Fazer
@@ -39,7 +41,13 @@ O projeto conta com um conjunto de pastas destinadas à organização, incluindo
 - [x] Portfolio
 - [x] Skills
 - [x] Certificates
-- [ ] Contact
+- [x] Contact
+
+- [ ] Botões da Home
+- [ ] Contact Funcional
+- [ ] Linkar Linkedin
+- [ ] Hospedar no Vercel
+
 
  
  
