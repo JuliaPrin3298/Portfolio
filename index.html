@@ -16,6 +16,7 @@
     <link rel="icon" href="images/logo.png" type="image/png" />
     <title>Portfolio - Julia R. Nogueira</title>
     <script src="js/waves.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                 <a class="nav-link" href="#portfolio">Portfolio</a>
                 <a class="nav-link" href="#skills">Skills</a>
                 <a class="nav-link" href="#certificates">Certificates</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -513,32 +514,42 @@
                 </div>
             </div>
             <div class="row align-items-stretch justify-content-center mt-4">
-               <div class="col-md-8 col-sm-12 d-flex h-100 form">
-                   <form class="w-100 d-flex flex-column h-100">
+                <div class="col-md-8 col-sm-12 d-flex h-100 mt-4 form">
+                    <form class="w-100 d-flex flex-column h-100"
+                        action="https://formsubmit.co/juliaprinnena1123@gmail.com"
+                        method="POST" data-form>
+                        
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="Novo contato do site">
+
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Name">
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            <input class="form-control" type="email" name="email" id="name" placeholder="Email"
+                                required>
                         </div>
                         <div class="form-row d-flex align-items-stretch">
 
                             <div class="col-10 d-flex align-items-stretch">
-                                <textarea class="form-control w-100 h-100" placeholder="Message">
+                                <textarea class="form-control w-100 h-100" type="text" name="txt-msg" id="txt-msg"
+                                    placeholder="Message" required>
                                 </textarea>
                             </div>
 
                             <div class="col-2 d-flex align-items-stretch mt-2 mt-md-0">
-                                <a href="#" class="btn send w-100 d-flex align-items-center justify-content-center">
+                                <button class="btn send w-100 d-flex align-items-center justify-content-center"
+                                    type="submit" data-button>
                                     <i class="bi bi-send"></i>
-                                </a>
+                                </button>
                             </div>
 
                         </div>
 
                     </form>
                 </div>
-                <div class="col-md-4 col-sm-12 d-flex text">
+                <div class="col-md-4 col-sm-12 d-flex mt-4 text">
                     <div class="card text-light w-100 h-100">
                         <div class="card-body d-flex flex-column justify-content-center">
                             <h5 class="card-title">Drop me a message</h5>
