@@ -43,11 +43,11 @@ O projeto conta com um conjunto de pastas destinadas à organização, incluindo
 - [x] Certificates
 - [x] Contact
 
-- [ ] Botões da Home
+- [x] Botões da Home
 - [x] Contact Funcional
-- [ ] Linkar Linkedin
+- [x] Linkar Linkedin
 - [ ] Hospedar no Vercel
-
+- [ ] Mudar a Lingua do Portfolio PT - EN
 
  
  
