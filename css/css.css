@@ -56,6 +56,29 @@ body {
     height: auto;
 }
 
+.home .btn-home {
+    width: 220px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    white-space: normal;
+    padding: 0 12px;
+}
+
+/* mobile */
+@media (max-width: 576px) {
+    .btn-home {
+        width: 100%;
+        max-width: 280px;
+        font-size: 0.9rem;
+    }
+}
+
+
 /*ABOUT ME*/
 .about .title {
     font-size: clamp(1.2rem, 3.3vw, 2.3rem);
