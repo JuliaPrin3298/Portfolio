@@ -5,6 +5,14 @@ O desenvolvimento deste portfólio web serve tanto para apresentar minhas habili
 
 ---
 
+## Acesse o site
+
+Você pode acessar o projeto em funcionamento através do link abaixo:
+
+[Portfólio - Julia Rocha Nogueira](https://portfolio-julia-rocha-nogueiras-projects.vercel.app/)
+
+---
+
 ## Objetivos
 
 Com este portfólio, busco alcançar minha primeira oportunidade de trabalho na área da tecnologia, além de demonstrar minha evolução técnica ao longo do tempo.  
