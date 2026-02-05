@@ -26,7 +26,7 @@ Tecnologias utilizadas no projeto:
 | CSS             | Estilização do portfólio           |
 | Bootstrap       | Responsividade                     |
 | Google Fonts    | Tipografia utilizada no projeto    |
-| JavaScript      | Animações de interface, tooltips dinâmicos e lógica de envio de emails no formulário de contato     |
+| JavaScript      | Animações de interface, tooltips interativos, lógica de envio de e-mails no formulário de contato e sistema de tradução dinâmica do site   |
 
 O projeto conta com um conjunto de pastas destinadas à organização, incluindo o diretório de imagens (`images`),uma pasta de apêndices(`appendix`) que contém os arquivos `.pdf` e `.rar` e outra voltada para os arquivos de estilo(`css`), garantindo melhor organização e manutenção do código.
 
