@@ -46,8 +46,8 @@ O projeto conta com um conjunto de pastas destinadas à organização, incluindo
 - [x] Botões da Home
 - [x] Contact Funcional
 - [x] Linkar Linkedin
-- [ ] Hospedar no Vercel
-- [ ] Mudar a Lingua do Portfolio PT - EN
+- [x] Hospedar no Vercel
+- [x] Mudar a Lingua do Portfolio PT - EN
 
  
  
