@@ -28,7 +28,7 @@ Tecnologias utilizadas no projeto:
 | Google Fonts    | Tipografia utilizada no projeto    |
 | JavaScript      | Animações de interface, tooltips interativos, lógica de envio de e-mails no formulário de contato e sistema de tradução dinâmica do site   |
 
-O projeto conta com um conjunto de pastas destinadas à organização, incluindo o diretório de imagens (`images`),uma pasta de apêndices(`appendix`) que contém os arquivos `.pdf` e `.rar`, outra voltada para os arquivos de estilo(`css`) e a ultima (`js`) que armazena os scripts em JavaScript, garantindo melhor organização e manutenção do código.
+O projeto conta com um conjunto de pastas destinadas à organização, incluindo o diretório de imagens (`images`),uma pasta de apêndices(`appendix`) que contém os arquivos `.pdf` e `.rar`, outra voltada para os arquivos de estilo(`css`) e a pasta (`js`) destinada aos scripts em JavaScript, garantindo melhor organização e manutenção do código.
 
 [Protótipo do Figma](https://www.figma.com/design/DV8v6ndXbtyDtl4RKY64AF/Untitled?node-id=1-2&t=E80O60Fg27e7DYG0-1)
 
