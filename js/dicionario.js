@@ -8,19 +8,22 @@ const translations = {
         "nav-skills": "Habilidades",
         "nav-certificates": "Certificados",
         "nav-contact": "Contato",
+
         "welcome-title": "Olá, eu sou Julia Rocha",
         "welcome-desc1": "Dev Full Stack &",
         "welcome-desc2": "Designer de Jogos",
         "btn-resume": "Baixar Currículo",
         "btn-previus": "Projetos Anteriores",
         "resume-link": "appendix/curriculo-pt.pdf",
+
         "txt-aboutme1": "Meu nome é Julia Rocha Nogueira, tenho 18 anos e sempre fui interessada por tecnologia e criatividade. Esse interesse me levou a concluir o Ensino Médio Técnico em Desenvolvimento de Sistemas pela ETEC.",
         "txt-aboutme2": "Atualmente, curso Game Design na FMU e Desenvolvimento de Software Multiplataforma na FATEC. Tenho grande interesse em desenvolvimento de jogos, front-end e criação de personagens. Gosto de trabalhar em equipe e de aprender novas ferramentas e tecnologias. No meu tempo livre, faço cursos extracurriculares, vou ao cinema, mestro sessões de RPG de mesa e passo tempo com meu cachorro.",
         "txt-aboutme3": "Estou em busca da minha primeira oportunidade profissional e me considero uma pessoa dedicada, curiosa e criativa, sempre em busca de aprendizado contínuo e crescimento profissional.",
+
         "title-card1": "Chronicles of Crime",
         "txt-card1": "Um jogo ambientado no início do século XX, no qual Alex Holness sonha em se tornar uma grande detetive, apesar das dificuldades de encontrar trabalho sendo uma mulher naquela época. Tudo muda quando ela recebe uma carta anônima alertando sobre um assassinato prestes a acontecer em um navio de cruzeiro. Diante disso, Alex vê a oportunidade perfeita para agir e provar suas habilidades.",
         "download": "Baixar",
-        "title-card2":"MatMundi",
+        "title-card2": "MatMundi",
         "txt-card2": "Um site gamificado desenvolvido para alunos do 1º ao 5º ano, com o objetivo de tornar o aprendizado de matemática divertido, interativo e envolvente. A plataforma oferece atividades complementares e exercícios de reforço, estimulando o desenvolvimento do raciocínio lógico.",
         "view-git": "Ver no GitHub",
         "title-card3": "Pipeline ETL para Notas de Estudantes",
@@ -33,8 +36,10 @@ const translations = {
         "title-card6": "Quiz Educativo",
         "txt-card6": "Um quiz divertido e interativo desenvolvido para ajudar os alunos a aprender conjunções por meio de jogos. Professores podem utilizar a plataforma para criar atividades dinâmicas, incentivando os estudantes a construir frases de forma colaborativa e aprender na prática.",
         "view-more": "Ver mais Projetos no Github",
+
         "design": "Design",
         "development": "Desenvolvimento",
+
         "dev-1": "Santander 2025 - Ciencia de Dados com Python",
         "dev-tool1": "63h | Emitido por Santander & DIO",
         "dev-2": " IoT na Mobilidade: Explorando Novos Mundos",
@@ -49,8 +54,27 @@ const translations = {
         "dev-tool6": "2h | Emitido por Santander & DIO",
         "dev-7": "Introdução a Banco de Dados Relacionais (SQL)",
         "dev-tool7": "3h | Emitido por Santander & DIO",
-        
-        
+
+        "des-1": "Front-End Micro-Certificação (Digital & Visual Design)",
+        "des-tool1": "Issued by Fatec / CPS",
+        "des-2": "Animação 2D Criando Juntos",
+        "des-tool2": "6.5h | Issued by Udemy",
+        "des-3": "Gamificação na Prática",
+        "des-tool3": "12h | Issued by SENAI Play",
+        "des-4": "18° Edição da Escola de Inovadores",
+        "des-tool4": "40h | Issued by CPS Inova",
+        "des-5": "Criando um Dashboard de Vendas do Xbox com Excel",
+        "des-tool5": " 2h | Issued by Santander & DIO",
+
+        "name": "Nome",
+        "email": "Email",
+        "message": "Mensagem",
+        "msg-success": "Mensagem Enviada",
+        "msg-error": "Erro",
+        "drop": "Mande-me uma mensagem",
+        "txt-drop": "Interessado em trabalharmos juntos? Gosto de aprender, desenvolver projetos e explorar novas ideias. Envie uma mensagem e vamos conversar.",
+
+
     },
     en: {
         "page-title": "Portfolio - Julia R. Nogueira",
@@ -60,19 +84,22 @@ const translations = {
         "nav-skills": "Skills",
         "nav-certificates": "Certificates",
         "nav-contact": "Contact",
+
         "welcome-title": "Hello, I'm Julia Rocha",
         "welcome-desc1": "Dev Full Stack &",
         "welcome-desc2": "Game Designer",
         "btn-resume": "Download Résumé",
         "btn-previus": "Previus Projects",
         "resume-link": "appendix/resume-en.pdf", // Caminho do seu PDF em EN
+
         "txt-aboutme1": "My name is Julia Rocha Nogueira, and I am 18 years old. I have always been interested in technology and creativity, which led me to complete a Technical High School program in Systems Development at ETEC.",
         "txt-aboutme2": "Currently, I am studying Game Design at FMU and Multiplatform Software Development at FATEC. I have a strong interest in game development, front-end development, and character creation. I enjoy working in teams and learning new tools and technologies. In my free time, I take extracurricular courses, watch movies at the cinema, run tabletop RPG sessions, and spend time with my dog.",
         "txt-aboutme3": "I am looking for my first job opportunity and consider myself a dedicated, curious, and creative person, always seeking learning opportunities and professional growth.",
+
         "title-card1": "Chronicles of Crime",
         "txt-card1": "A game where, in the early 20th century, Alex Holness dreams of becoming a great detective though finding work as a woman in that era is no easy task. However, after receiving an anonymous letter warning of a murder about to take place on a cruise ship, she sees the perfect opportunity to act and prove her skills.",
         "download": "Download",
-        "title-card2":"MatMundi",
+        "title-card2": "MatMundi",
         "txt-card2": "A gamified website developed for students from 1st to 5th grade, designed to make learning mathematics fun, interactive, and engaging. The platform offers complementary activities and reinforcement exercises, stimulating the development of logical reasoning skills.",
         "view-git": "View on GitHub",
         "title-card3": "ETL Pipeline for Student Grades",
@@ -85,8 +112,10 @@ const translations = {
         "title-card6": "Education Quiz",
         "txt-card6": "A fun and interactive quiz designed to help students learn conjunctions through gameplay. Teachers can use the platform to create dynamic activities, encouraging students to build sentences collaboratively and learn through practice.",
         "view-more": "View more Projects on Github",
+
         "design": "Design",
         "development": "Development",
+
         "dev-1": "Santander 2025 - Data Science with Python",
         "dev-tool1": "63h | Issued by Santander & DIO",
         "dev-2": " IoT in Mobility: Exploring New Worlds",
@@ -102,6 +131,24 @@ const translations = {
         "dev-7": "Introduction to Relational Databases (SQL)",
         "dev-tool7": "3h | Issued by Santander & DIO",
 
+        "des-1": "Front-End Micro-Certification (Digital & Visual Design)",
+        "des-tool1": "Issued by Fatec / CPS",
+        "des-2": " 2D Animation: Creating Together",
+        "des-tool2": "6.5h | Issued by Udemy",
+        "des-3": "Gamification in Practice",
+        "des-tool3": "12h | Issued by SENAI Play",
+        "des-4": "Innovation School: Ideation & Prototyping",
+        "des-tool4": "40h | Issued by CPS Inova",
+        "des-5": "Xbox Sales Dashboard (Data Visualization)",
+        "des-tool5": " 2h | Issued by Santander & DIO",
+
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "msg-success": "Message Sended",
+        "msg-error": "Error",
+        "drop": "Drop-me a message",
+        "txt-drop": "Interested in working together? I enjoy learning, building projects, and exploring new ideas. Send me a message and let’s talk.",
 
     }
 };
@@ -114,6 +161,17 @@ let currentLang = localStorage.getItem('preferredLang') || 'pt';
 function updateContent() {
     const elements = document.querySelectorAll('[data-key]');
     const langBtn = document.getElementById('lang-switch');
+
+    // Atualiza placeholders
+    const placeholders = document.querySelectorAll('[data-placeholder]');
+
+    placeholders.forEach(el => {
+        const key = el.getAttribute('data-placeholder');
+        if (translations[currentLang][key]) {
+            el.placeholder = translations[currentLang][key];
+        }
+    });
+
 
     // 1. Título da aba
     document.title = translations[currentLang]["page-title"];

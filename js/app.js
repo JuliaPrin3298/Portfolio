@@ -6,11 +6,19 @@ class FormSubmit {
     }
 
     displaySuccess() {
-        this.form.innerHTML = this.settings.success;
+        this.form.innerHTML = `
+          <div class="alert alert-success">
+            ${translations[currentLang]["msg-success"]}
+          </div>
+        `;
     }
 
     displayError() {
-        this.form.innerHTML = this.settings.error;
+        this.form.innerHTML = `
+          <div class="alert alert-danger">
+            ${translations[currentLang]["msg-error"]}
+          </div>
+        `;
     }
 
     async sendForm(event) {
@@ -44,8 +52,7 @@ class FormSubmit {
 
 const formSubmit = new FormSubmit({
     form: "[data-form]",
-    success: "<div class='alert alert-success'>Message Sended</div>",
-    error: "<div class='alert alert-danger'>Error</div>",
 });
 
 formSubmit.init();
+

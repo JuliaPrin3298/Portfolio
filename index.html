@@ -453,15 +453,15 @@
                                 <div class="col-1">
                                     <i class="bi bi-circle-fill"></i>
                                 </div>
-                                <div class="col-5 text-start">
+                                <div class="col-5 text-start" data-key="des-1">
                                     Front-End Micro-Certification (Digital & Visual Design)
                                 </div>
                                 <div class="col-2">
                                     <a href="appendix/Micro-Certificação Front-end.pdf" target="_blank" data-key="view"
-                                        class="btn">View</a>
+                                        class="btn" data-key="view">View</a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip"
+                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip" data-key="des-tool1"
                                         title="Issued by Fatec / CPS">
                                 </div>
                             </div>
@@ -470,15 +470,15 @@
                                 <div class="col-1">
                                     <i class="bi bi-circle-fill"></i>
                                 </div>
-                                <div class="col-5 text-start">
+                                <div class="col-5 text-start" data-key="des-2">
                                     2D Animation: Creating Together
                                 </div>
                                 <div class="col-2">
                                     <a href="appendix/Criando juntos - Animação 2D.pdf" target="_blank" data-key="view"
-                                        class="btn">View</a>
+                                        class="btn" data-key="view">View</a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip"
+                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip" data-key="des-tool2"
                                         title="6.5h | Issued by Udemy">
                                 </div>
                             </div>
@@ -487,15 +487,15 @@
                                 <div class="col-1">
                                     <i class="bi bi-circle-fill"></i>
                                 </div>
-                                <div class="col-5 text-start">
+                                <div class="col-5 text-start" data-key="des-3">
                                     Gamification in Practice
                                 </div>
                                 <div class="col-2">
                                     <a href="appendix/Gamificação.pdf" target="_blank" data-key="view"
-                                        class="btn">View</a>
+                                        class="btn" data-key="view">View</a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip"
+                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip" data-key="des-tool3"
                                         title="12h | Issued by SENAI Play">
                                 </div>
                             </div>
@@ -504,15 +504,15 @@
                                 <div class="col-1">
                                     <i class="bi bi-circle-fill"></i>
                                 </div>
-                                <div class="col-5 text-start">
+                                <div class="col-5 text-start" data-key="des-4">
                                     Innovation School: Ideation & Prototyping
                                 </div>
                                 <div class="col-2">
                                     <a href="appendix/Inova-2024-1.pdf" target="_blank" data-key="view"
-                                        class="btn">View</a>
+                                        class="btn" data-key="view">View</a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip"
+                                    <img src="images/certificate.png" class="cert" data-toggle="tooltip" data-key="des-tool4"
                                         title="40h | Issued by CPS Inova">
                                 </div>
                             </div>
@@ -521,7 +521,7 @@
                                 <div class="col-1">
                                     <i class="bi bi-circle-fill"></i>
                                 </div>
-                                <div class="col-5 text-start">
+                                <div class="col-5 text-start" data-key="des-5">
                                     Xbox Sales Dashboard (Data Visualization)
                                 </div>
                                 <div class="col-2">
@@ -529,7 +529,7 @@
                                         target="_blank" data-key="view" class="btn">View</a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="images/bagde.png" class="bag" data-toggle="tooltip"
+                                    <img src="images/bagde.png" class="bag" data-toggle="tooltip" data-key="des-tool5"
                                         title="2h | Issued by Santander & DIO">
                                 </div>
                             </div>
@@ -547,7 +547,7 @@
         <div class="container p-4" id="contact">
             <div class="row justify-content-center mt-4">
                 <div class="col text-center">
-                    <h1>Contact</h1>
+                    <h1 data-key="nav-contact">Contact</h1>
                 </div>
             </div>
             <div class="row align-items-stretch justify-content-center mt-4">
@@ -560,16 +560,16 @@
                         <input type="hidden" name="_subject" value="Novo contato do site">
 
                         <div class="form-group">
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Name" required>
+                            <input class="form-control" type="text" name="name" data-placeholder="name" id="name" placeholder="Name" required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="email" name="email" id="name" placeholder="Email"
+                            <input class="form-control" type="email" name="email" data-placeholder="email" id="name" placeholder="Email"
                                 required>
                         </div>
                         <div class="form-row d-flex align-items-stretch">
 
                             <div class="col-10 d-flex align-items-stretch">
-                                <textarea class="form-control w-100 h-100" type="text" name="txt-msg" id="txt-msg"
+                                <textarea class="form-control w-100 h-100" type="text" data-placeholder="message" name="txt-msg" id="txt-msg"
                                     placeholder="Message" required>
                                 </textarea>
                             </div>
@@ -588,8 +588,8 @@
                 <div class="col-md-4 col-sm-12 d-flex mt-4 text">
                     <div class="card text-light w-100 h-100">
                         <div class="card-body d-flex flex-column justify-content-center">
-                            <h5 class="card-title">Drop me a message</h5>
-                            <p class="card-text">
+                            <h5 class="card-title" data-key="drop">Drop me a message</h5>
+                            <p class="card-text" data-key="txt-drop">
                                 Interested in working together?
                                 I enjoy learning, building projects,
                                 and exploring new ideas.
