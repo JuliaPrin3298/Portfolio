@@ -9,7 +9,7 @@ const translations = {
         "nav-certificates": "Certificados",
         "nav-contact": "Contato",
         "welcome-title": "Olá, eu sou Julia Rocha",
-        "welcome-desc1": "Desenvolvedor Full Stack &",
+        "welcome-desc1": "Dev Full Stack &",
         "welcome-desc2": "Designer de Jogos",
         "btn-resume": "Baixar Currículo",
         "btn-previus": "Projetos Anteriores",
@@ -25,6 +25,31 @@ const translations = {
         "view-git": "Ver no GitHub",
         "title-card3": "Pipeline ETL para Notas de Estudantes",
         "txt-card3": "Um projeto em Python focado na aplicação prática dos conceitos de ETL (Extração, Transformação e Carga). O pipeline realiza a extração de dados de notas fiscais a partir de arquivos Excel, com foco na arquitetura de fluxo de dados e no desenvolvimento de soluções de processamento robustas.",
+        "title-card4": "Bingo",
+        "txt-card4": "Um gerador interativo de números de Bingo que sorteia números aleatoriamente e mantém o controle de todos os números já selecionados. O sistema marca visualmente os números sorteados, evitando repetições e tornando o jogo fácil de acompanhar em tempo real.",
+        "view": "Abrir",
+        "title-card5": "Tamagotchi",
+        "txt-card5": "Um pet virtual inspirado no Tamagotchi, desenvolvido em Java, criado para reviver a experiência nostálgica de cuidar e criar um animal digital. Os jogadores interagem com o pet por meio de ações diárias, recriando o charme e a simplicidade dos pets virtuais clássicos.",
+        "title-card6": "Quiz Educativo",
+        "txt-card6": "Um quiz divertido e interativo desenvolvido para ajudar os alunos a aprender conjunções por meio de jogos. Professores podem utilizar a plataforma para criar atividades dinâmicas, incentivando os estudantes a construir frases de forma colaborativa e aprender na prática.",
+        "view-more": "Ver mais Projetos no Github",
+        "design": "Design",
+        "development": "Desenvolvimento",
+        "dev-1": "Santander 2025 - Ciencia de Dados com Python",
+        "dev-tool1": "63h | Emitido por Santander & DIO",
+        "dev-2": " IoT na Mobilidade: Explorando Novos Mundos",
+        "dev-tool2": "20h | Emitido por Fit Tech Academy",
+        "dev-3": "Fundamentos de ETL (Extract, Transform, Load) com Python",
+        "dev-tool3": "3h | Emitido por Santander & DIO",
+        "dev-4": "Explorando IA Generativa em um Pipeline de ETL com Python",
+        "dev-tool4": "2h | Emitido por Santander & DIO",
+        "dev-5": "Redução dos Custos em Farmácias com AWS",
+        "dev-tool5": "1h | Emitido por Santander & DIO",
+        "dev-6": " Versionamento de Código com Git e GitHub",
+        "dev-tool6": "2h | Emitido por Santander & DIO",
+        "dev-7": "Introdução a Banco de Dados Relacionais (SQL)",
+        "dev-tool7": "3h | Emitido por Santander & DIO",
+        
         
     },
     en: {
@@ -52,7 +77,32 @@ const translations = {
         "view-git": "View on GitHub",
         "title-card3": "ETL Pipeline for Student Grades",
         "txt-card3": "A Python project focused on the practical application of ETL (Extraction, Transformation, and Loading) concepts. The pipeline extracts invoice data from Excel files, focusing on data flow architecture and the development of robust processing solutions.",
-        "title-card4": "",
+        "title-card4": "Bingo",
+        "txt-card4": "An interactive Bingo number generator that randomly draws numbers and keeps track of all previously selected ones. The system visually marks drawn numbers, preventing repetitions and making the game easy to follow in real time.",
+        "view": "View",
+        "title-card5": "Tamagotchi",
+        "txt-card5": "A Tamagotchi-inspired virtual pet built in Java, designed to revive the nostalgic experience of raising and caring for a digital pet. Players interact with the pet through daily actions, recreating the charm and simplicity of classic virtual pets.",
+        "title-card6": "Education Quiz",
+        "txt-card6": "A fun and interactive quiz designed to help students learn conjunctions through gameplay. Teachers can use the platform to create dynamic activities, encouraging students to build sentences collaboratively and learn through practice.",
+        "view-more": "View more Projects on Github",
+        "design": "Design",
+        "development": "Development",
+        "dev-1": "Santander 2025 - Data Science with Python",
+        "dev-tool1": "63h | Issued by Santander & DIO",
+        "dev-2": " IoT in Mobility: Exploring New Worlds",
+        "dev-tool2": "20h | Issued by Fit Tech Academy",
+        "dev-3": "Python ETL Fundamentals",
+        "dev-tool3": "3h | Issued by Santander & DIO",
+        "dev-4": " Generative AI in ETL Pipelines",
+        "dev-tool4": "2h | Issued by Santander & DIO",
+        "dev-5": "AWS Cloud: Cost Reduction for Pharmacies",
+        "dev-tool5": "1h | Issued by Santander & DIO",
+        "dev-6": " Version Control with Git & GitHub",
+        "dev-tool6": "2h | Issued by Santander & DIO",
+        "dev-7": "Introduction to Relational Databases (SQL)",
+        "dev-tool7": "3h | Issued by Santander & DIO",
+
+
     }
 };
 
@@ -65,33 +115,43 @@ function updateContent() {
     const elements = document.querySelectorAll('[data-key]');
     const langBtn = document.getElementById('lang-switch');
 
-    // 1. Atualiza o Título da Aba
+    // 1. Título da aba
     document.title = translations[currentLang]["page-title"];
 
-    // 2. Atualiza todos os elementos com data-key
+    // 2. Textos e tooltips
     elements.forEach(el => {
         const key = el.getAttribute('data-key');
 
         if (translations[currentLang][key]) {
-            el.innerText = translations[currentLang][key];
 
-            // Ajuste específico para o link do currículo
+            // TOOLTIP (Bootstrap 4)
+            if (el.hasAttribute('data-toggle') && el.getAttribute('data-toggle') === 'tooltip') {
+                el.setAttribute('title', translations[currentLang][key]);
+            }
+            // TEXTO NORMAL
+            else {
+                el.innerText = translations[currentLang][key];
+            }
+
+            // Link do currículo
             if (key === "btn-resume") {
                 el.href = translations[currentLang]["resume-link"];
             }
         }
     });
 
-    // 3. Atualiza o idioma da página
+    // 3. Lang do HTML
     document.documentElement.lang = currentLang;
 
-    // 4. Atualiza o texto do botão de troca 
-    if (currentLang === 'pt') {
-        langBtn.innerHTML = '🇺🇸 EN'; // Mostra opção de mudar para Inglês
-    } else {
-        langBtn.innerHTML = '🇧🇷 PT'; // Mostra opção de mudar para Português
-    }
+    // 4. Botão de idioma
+    langBtn.innerHTML = currentLang === 'pt' ? '🇺🇸 EN' : '🇧🇷 PT';
+
+    // 5. REINICIALIZA TOOLTIPS (Bootstrap 4)
+    $('[data-toggle="tooltip"]').tooltip('dispose');
+    $('[data-toggle="tooltip"]').tooltip();
 }
+
+
 
 // 4. Evento de Clique no Botão
 langBtn.addEventListener('click', () => {
